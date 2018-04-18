@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  SGViewController.h
 //  SnakeGame
 //
 //  Created by chantil on 04/18/2018.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface SGViewController : UIViewController
 
 
 @end

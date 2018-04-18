@@ -1,18 +1,18 @@
 //
-//  ViewController.m
+//  SGViewController.m
 //  SnakeGame
 //
 //  Created by chantil on 04/18/2018.
 //  Copyright © 2018 ldbchan. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "SGViewController.h"
 
-@interface ViewController ()
+@interface SGViewController ()
 
 @end
 
-@implementation ViewController
+@implementation SGViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
