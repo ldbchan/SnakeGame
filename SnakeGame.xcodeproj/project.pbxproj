@@ -60,6 +60,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8709DE2C2087167F000C744C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				87BCC62B2087139900CEC3BE /* SGViewController.h */,
+				87BCC62C2087139900CEC3BE /* SGViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8709DE3220874108000C744C /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8709DE332087410F000C744C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		87BCC61C2087139800CEC3BE = {
 			isa = PBXGroup;
 			children = (
@@ -83,8 +106,9 @@
 			children = (
 				87BCC6282087139900CEC3BE /* AppDelegate.h */,
 				87BCC6292087139900CEC3BE /* AppDelegate.m */,
-				87BCC62B2087139900CEC3BE /* SGViewController.h */,
-				87BCC62C2087139900CEC3BE /* SGViewController.m */,
+				8709DE332087410F000C744C /* Model */,
+				8709DE3220874108000C744C /* View */,
+				8709DE2C2087167F000C744C /* Controller */,
 				87BCC62E2087139900CEC3BE /* Main.storyboard */,
 				87BCC6312087139900CEC3BE /* Assets.xcassets */,
 				87BCC6332087139900CEC3BE /* LaunchScreen.storyboard */,
