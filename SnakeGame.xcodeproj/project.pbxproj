@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8709DE362087412D000C744C /* SGSnake.m in Sources */ = {isa = PBXBuildFile; fileRef = 8709DE352087412D000C744C /* SGSnake.m */; };
 		87BCC62A2087139900CEC3BE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 87BCC6292087139900CEC3BE /* AppDelegate.m */; };
 		87BCC62D2087139900CEC3BE /* SGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87BCC62C2087139900CEC3BE /* SGViewController.m */; };
 		87BCC6302087139900CEC3BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87BCC62E2087139900CEC3BE /* Main.storyboard */; };
@@ -27,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8709DE342087412D000C744C /* SGSnake.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SGSnake.h; sourceTree = "<group>"; };
+		8709DE352087412D000C744C /* SGSnake.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SGSnake.m; sourceTree = "<group>"; };
 		87BCC6252087139900CEC3BE /* SnakeGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnakeGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		87BCC6282087139900CEC3BE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		87BCC6292087139900CEC3BE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -79,6 +82,8 @@
 		8709DE332087410F000C744C /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				8709DE342087412D000C744C /* SGSnake.h */,
+				8709DE352087412D000C744C /* SGSnake.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -230,6 +235,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8709DE362087412D000C744C /* SGSnake.m in Sources */,
 				87BCC62D2087139900CEC3BE /* SGViewController.m in Sources */,
 				87BCC6382087139900CEC3BE /* main.m in Sources */,
 				87BCC62A2087139900CEC3BE /* AppDelegate.m in Sources */,
