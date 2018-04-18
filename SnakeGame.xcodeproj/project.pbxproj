@@ -147,6 +147,7 @@
 		87BCC61D2087139800CEC3BE /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = SG;
 				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = ldbchan;
 				TargetAttributes = {
