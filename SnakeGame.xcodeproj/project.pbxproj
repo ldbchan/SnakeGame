@@ -36,6 +36,7 @@
 		8709DE3820888269000C744C /* SGGameView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SGGameView.m; sourceTree = "<group>"; };
 		87BA5C86208A58AC00D78E9D /* SGBase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SGBase.h; sourceTree = "<group>"; };
 		87BA5C87208A58AC00D78E9D /* SGBase.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SGBase.m; sourceTree = "<group>"; };
+		87BA5C89208A592500D78E9D /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		87BCC6252087139900CEC3BE /* SnakeGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnakeGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		87BCC6282087139900CEC3BE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		87BCC6292087139900CEC3BE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -124,6 +125,7 @@
 				8709DE2C2087167F000C744C /* Controller */,
 				87BA5C86208A58AC00D78E9D /* SGBase.h */,
 				87BA5C87208A58AC00D78E9D /* SGBase.m */,
+				87BA5C89208A592500D78E9D /* PrefixHeader.pch */,
 				87BCC62E2087139900CEC3BE /* Main.storyboard */,
 				87BCC6312087139900CEC3BE /* Assets.xcassets */,
 				87BCC6332087139900CEC3BE /* LaunchScreen.storyboard */,
