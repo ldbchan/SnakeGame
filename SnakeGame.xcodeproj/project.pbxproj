@@ -7,8 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8709DE362087412D000C744C /* SGSnake.m in Sources */ = {isa = PBXBuildFile; fileRef = 8709DE352087412D000C744C /* SGSnake.m */; };
+		8709DE3920888269000C744C /* SGGameView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8709DE3820888269000C744C /* SGGameView.m */; };
+		87BA5C88208A58AC00D78E9D /* SGBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 87BA5C87208A58AC00D78E9D /* SGBase.m */; };
 		87BCC62A2087139900CEC3BE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 87BCC6292087139900CEC3BE /* AppDelegate.m */; };
-		87BCC62D2087139900CEC3BE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87BCC62C2087139900CEC3BE /* ViewController.m */; };
+		87BCC62D2087139900CEC3BE /* SGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87BCC62C2087139900CEC3BE /* SGViewController.m */; };
 		87BCC6302087139900CEC3BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87BCC62E2087139900CEC3BE /* Main.storyboard */; };
 		87BCC6322087139900CEC3BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87BCC6312087139900CEC3BE /* Assets.xcassets */; };
 		87BCC6352087139900CEC3BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87BCC6332087139900CEC3BE /* LaunchScreen.storyboard */; };
@@ -27,11 +30,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8709DE342087412D000C744C /* SGSnake.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SGSnake.h; sourceTree = "<group>"; };
+		8709DE352087412D000C744C /* SGSnake.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SGSnake.m; sourceTree = "<group>"; };
+		8709DE3720888269000C744C /* SGGameView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SGGameView.h; sourceTree = "<group>"; };
+		8709DE3820888269000C744C /* SGGameView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SGGameView.m; sourceTree = "<group>"; };
+		87BA5C86208A58AC00D78E9D /* SGBase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SGBase.h; sourceTree = "<group>"; };
+		87BA5C87208A58AC00D78E9D /* SGBase.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SGBase.m; sourceTree = "<group>"; };
+		87BA5C89208A592500D78E9D /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		87BCC6252087139900CEC3BE /* SnakeGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnakeGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		87BCC6282087139900CEC3BE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		87BCC6292087139900CEC3BE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		87BCC62B2087139900CEC3BE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		87BCC62C2087139900CEC3BE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		87BCC62B2087139900CEC3BE /* SGViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SGViewController.h; sourceTree = "<group>"; };
+		87BCC62C2087139900CEC3BE /* SGViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SGViewController.m; sourceTree = "<group>"; };
 		87BCC62F2087139900CEC3BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		87BCC6312087139900CEC3BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		87BCC6342087139900CEC3BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -60,6 +70,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8709DE2C2087167F000C744C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				87BCC62B2087139900CEC3BE /* SGViewController.h */,
+				87BCC62C2087139900CEC3BE /* SGViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8709DE3220874108000C744C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8709DE3720888269000C744C /* SGGameView.h */,
+				8709DE3820888269000C744C /* SGGameView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8709DE332087410F000C744C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8709DE342087412D000C744C /* SGSnake.h */,
+				8709DE352087412D000C744C /* SGSnake.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		87BCC61C2087139800CEC3BE = {
 			isa = PBXGroup;
 			children = (
@@ -83,8 +120,12 @@
 			children = (
 				87BCC6282087139900CEC3BE /* AppDelegate.h */,
 				87BCC6292087139900CEC3BE /* AppDelegate.m */,
-				87BCC62B2087139900CEC3BE /* ViewController.h */,
-				87BCC62C2087139900CEC3BE /* ViewController.m */,
+				8709DE332087410F000C744C /* Model */,
+				8709DE3220874108000C744C /* View */,
+				8709DE2C2087167F000C744C /* Controller */,
+				87BA5C86208A58AC00D78E9D /* SGBase.h */,
+				87BA5C87208A58AC00D78E9D /* SGBase.m */,
+				87BA5C89208A592500D78E9D /* PrefixHeader.pch */,
 				87BCC62E2087139900CEC3BE /* Main.storyboard */,
 				87BCC6312087139900CEC3BE /* Assets.xcassets */,
 				87BCC6332087139900CEC3BE /* LaunchScreen.storyboard */,
@@ -147,6 +188,7 @@
 		87BCC61D2087139800CEC3BE /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = SG;
 				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = ldbchan;
 				TargetAttributes = {
@@ -205,8 +247,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				87BCC62D2087139900CEC3BE /* ViewController.m in Sources */,
+				8709DE362087412D000C744C /* SGSnake.m in Sources */,
+				87BCC62D2087139900CEC3BE /* SGViewController.m in Sources */,
 				87BCC6382087139900CEC3BE /* main.m in Sources */,
+				8709DE3920888269000C744C /* SGGameView.m in Sources */,
+				87BA5C88208A58AC00D78E9D /* SGBase.m in Sources */,
 				87BCC62A2087139900CEC3BE /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -297,7 +342,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -346,7 +391,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -359,6 +404,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = W2R6VN84QQ;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PRODUCT_NAME)/PrefixHeader.pch";
 				INFOPLIST_FILE = SnakeGame/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ldbchan.SnakeGame;
@@ -373,6 +421,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = W2R6VN84QQ;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PRODUCT_NAME)/PrefixHeader.pch";
 				INFOPLIST_FILE = SnakeGame/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ldbchan.SnakeGame;

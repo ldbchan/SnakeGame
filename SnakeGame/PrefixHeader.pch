@@ -1,0 +1,14 @@
+//
+//  PrefixHeader.pch
+//  SnakeGame
+//
+//  Created by chantil on 04/20/2018.
+//  Copyright © 2018 ldbchan. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "SGBase.h"
+
+#endif /* PrefixHeader_pch */
